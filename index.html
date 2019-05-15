@@ -12,22 +12,22 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <header>
+    <header id="inicio">
       <div class="container">
         <h1>Vitor Leonel</h1>
 
         <nav>
-          <a href="">Ínicio</a>
-          <a href="">Sobre</a>
-          <a href="">Habilidades</a>
-          <a href="">Projetos</a>
-          <a href="">Contato</a>
+          <a href="#inicio">Ínicio</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
         </nav>
       </div>
     </header>
 
   
-    <div class="about">
+    <div class="about" id="sobre">
       <div class="container">
         <h2>Sobre</h2>
 
@@ -41,12 +41,12 @@
       </div>
     </div>
 
-    <div class="square">
+    <div class="square" id="habilidades">
       <div class="container">
         <h3>Habilidades</h3>
 
-        <div class="habilidades">
-            <ul style="list-style-type:none;padding:0;">
+        <div class="skills">
+            <ul>
                 <li>CSS (Scss)</li>
                 <li>CSS Frameworks (Bootstrap, Bulma)</li>
                 <li>Javascript</li>
@@ -61,28 +61,41 @@
       </div>
     </div>
 
-    <div class="project">
+    <div class="project" id="projetos">
       <div class="container">
        <h4>Projetos</h4>
        
        <div class="home">
-          <ul style="list-style-type:none;padding:0;">
-              <li>Treinar Front-end</li>
-              <li>React People</li>
+          <ul>
+              <li>
+                <a href="https://www.treinarfrontend.com/">Treinar Front-end</a>
+              </li>
+              <li>
+                <a href="https://www.reactpeople.org/">React People</a>
+              </li>
           </ul>
        </div>
       </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contato">
       <div class="container">
         <h5>Contato</h5>
 
         <div class="e-mail">
-          <p>Se interessou em algum de meus conhecimentos e quer entrar em contato? Só mandar um email para falecom@vitorleonel.com </p>
+          <p>Se interessou em algum de meus conhecimentos e quer entrar em contato? <br>Só mandar um email para <a href= "mailto:falecom@vitorleonel.com">falecom@vitorleonel.com</a></p>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="container">
+        <a href="https://www.facebook.com/vitorleoneloficial"><img src="facebook.png" alt="Facebook"></a>
+          <a href="https://www.linkedin.com/in/vitorleonel/"><img src="linkedin.png" alt="Linkedin"></a>
+          <a href="https://www.instagram.com/vitorleoneloficial/"><img src="instagram.png" alt="Instagram"></a>
+          <a href="https://twitter.com/vitorleonelf"><img src="twitter.png" alt="Twitter"></a>
+      </div>
+    </footer>
 
   </body>
 </html>

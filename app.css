@@ -14,7 +14,6 @@
   }
   
   header {
-    width: 100vw;
     height: 100vh;
     background-color: #000;
     background-image: url("header-background.jpg");
@@ -62,7 +61,7 @@
  .about p {
    flex: 1;
    padding-right: 98px;
-   color: white;
+   color: #FEFEFF;
    font-size: 18px;
    font-family: "Open Sans", sans-serif;
   }
@@ -98,6 +97,8 @@
    }
 
    .square ul {
+     list-style-type: none;
+     padding: 0;
      color: #2C3E50;
      font-size: 18px;
      font-family: "Open Sans", sans-serif;
@@ -119,10 +120,16 @@
    }
 
    .project ul {
+    list-style-type: none;
+    padding: 0;
     color: #2C3E50;
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
     text-align: center; 
+   }
+
+   .project ul li a{
+     color: #2C3E50;
    }
 
    .contact {
@@ -146,5 +153,21 @@
      text-align: center; 
    }
 
+   .contact a {
+     color:#fff;
+   }
 
+   footer {
+    background-color: #00BDBD;
+    padding-top: 28px;
+    padding-bottom: 24px;
+   }
+
+footer .container {
+  text-align: center;
+}
+
+footer .container img {
+  width: 50px;
+}
    
