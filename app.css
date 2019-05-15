@@ -180,4 +180,43 @@ footer .container {
 footer .container img {
   width: 50px;
 }
+
+@media only screen and (max-width: 640px) {
+  header {
+    height: auto;
+    padding-bottom: 24px;
+  }
+  
+  header > .container {
+    flex-direction: column;
+  }
+
+  header > .container nav{
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
+  header > .container nav a {
+    margin-bottom: 8px;
+  }
+
+  .about .box {
+    flex-direction: column-reverse;
+  }
+
+  .about .box p {
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .about,
+  .square,
+  .project,
+  .contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
    
