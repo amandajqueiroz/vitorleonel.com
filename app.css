@@ -198,13 +198,15 @@ footer .container img {
 
   header > .container nav a {
     margin-bottom: 8px;
+    margin-left: 0;
   }
 
   .about .box {
     flex-direction: column-reverse;
   }
 
-  .about .box p {
+  .about .box p,
+  .contact p {
     text-align: center;
     padding-right: 16px;
     padding-left: 16px;
