@@ -7,6 +7,10 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
   }
+
+  h2 {
+    margin: 0;
+  }
   
   .container {
     max-width: 992px;
@@ -98,7 +102,7 @@
      background-color: #EEEEEE;
    }
 
-   .square h3 {
+   .square h2 {
      margin-bottom: 90px;
      color: #000;
      font-size: 36px;
@@ -121,7 +125,7 @@
      background-color: #fff;
    }
 
-   .project h4 {
+   .project h2 {
      margin-bottom: 90px;
      color: #000;
      font-size: 36px;
@@ -148,7 +152,7 @@
      background-color: #474D5D;
    }
 
-   .contact h5 {
+   .contact h2 {
      margin-bottom: 90px;
      color: #fff;
      font-size: 36px;
@@ -219,6 +223,14 @@ footer .container img {
     padding-top: 32px;
     padding-bottom: 32px;
   }
+
+  .about h2,
+  .square h2,
+  .project h2,
+  .contact h2 {
+    margin-bottom: 45px;
+  }
+
 }
 
    
